@@ -1,0 +1,72 @@
+main{
+    background-image: url(../../media/imagen-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    
+    
+}
+
+
+/* Estilos Generales */
+
+
+
+
+
+
+.seccion-titulo{
+    font-size: 4rem;
+    padding: 15px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+.btn{
+    margin: 30px auto;
+    display: block;
+}
+
+/* Nosotros */
+
+.nosotros{
+    height: 650px;
+    padding: 10px;
+}
+
+.nosotros .contenedor{
+    max-width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.seccion-texto{
+    padding: 60px 20px 0px ;
+    font-size: 1rem;
+}
+
+/* Eventos */
+
+.carousel-slide{
+    background-color: black;
+    
+}
+
+.seccion-image{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none ;
+    }
+}
